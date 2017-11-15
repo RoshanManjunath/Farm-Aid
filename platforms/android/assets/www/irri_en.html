@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">-->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="lib/jquery.mobile-1.4.5.css">
+        <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
+
+        <link rel='stylesheet' href='lib/unitegallery/css/unite-gallery.css' type='text/css' />
+        <!--mobiscroll start-->
+        <link rel='stylesheet' href='lib/mobiscroll/css/mobiscroll.scroller.css' type='text/css' />
+        <link rel='stylesheet' href='lib/mobiscroll/css/mobiscroll.scroller.android.css' type='text/css' />
+        <link rel='stylesheet' href='lib/mobiscroll/css/mobiscroll.animation.css' type='text/css' />
+        <!--mobiscroll end-->
+        <!--zebra start-->
+        <link type="text/css" href="lib/zebra/css/default/zebra_dialog.css" rel="stylesheet" />
+        <!--zebra end-->
+        <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script> -->
+          <link rel="stylesheet" type="text/css" href="lib/css/flaticon.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script type="text/javascript" src="lib/jquery.min.js"></script>
+        <script type="text/javascript" src="lib/jquery.mobile-1.4.5.js"></script>
+        <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+        <!-- <script type="text/javascript" src="lib/youtube.js"></script> -->
+
+        <!-- <script src="https://cdn.rawgit.com/skipser/youtube-autoresize/master/youtube-autoresizer.js"></script> -->
+<!-- calender-->
+<link rel="stylesheet"  href="http://code.jquery.com/mobile/git/jquery.mobile-git.css" />
+<link rel="stylesheet" href="https://rawgithub.com/arschmitz/jquery-mobile-datepicker-wrapper/master/jquery.mobile.datepicker.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="https://rawgithub.com/jquery/jquery-ui/1-10-stable/ui/jquery.ui.datepicker.js"></script>
+<script src="http://code.jquery.com/mobile/git/jquery.mobile-git.js"></script>
+<script src="https://rawgithub.com/arschmitz/jquery-mobile-datepicker-wrapper/master/jquery.mobile.datepicker.js"></script>
+
+        <title>FARM-Aid</title>
+      </head>
+      <body>
+        <div data-role="page" id="newcar">
+            <div data-role="header" class="bgcolor-ltblue">
+                <h1>Irrigation</h1>
+                <a  class = "btn-top" data-role="botton" data-icon="carat-l" data-iconpos="notext" data-rel="back">Back</a>
+            </div>
+            <div data-role="container">
+              <form onsubmit="decision()">
+              <table style="border-collapse:collapse; width: 100%;">
+                <tr style="text-align: left;padding: 8px;"><th style="text-align: left;padding: 8px;">Enter acres:</th><td>
+              <input type="text" id="acres"></td></tr>
+              <tr><td colspan="2"><input type="submit" value="submit"/></td></tr>
+              </table>
+              </form>
+            <table style="border-collapse:collapse; width: 100%;">
+              <tr class="t"><td class="t"><h3 id="dd"> </h3></td><td class="t"><h3 id="dat" > </h3></td></tr>
+            <tr class="t"><td class="t"><h3 id="dd2"> </h3></td><td class="t"><h3 id="dat2" > </h3></td></tr>
+            <tr class="t"><td class="t"><h3 id="dd3"> </h3></td><td class="t"><h3 id="dat3" > </h3></td></tr>
+          </table>
+            </div>
+<script>
+function decision(){
+  var a = document.getElementById("acres").value;
+  if (isNaN(a))
+  {
+    alert("Must input numbers");
+    return false;
+  }
+  var b = a*4;
+  var c = a*5;
+  document.getElementById("dd").innerHTML = "Acres:";
+  document.getElementById("dat").innerHTML = a;
+  document.getElementById("dd2").innerHTML = "Amount of seeds required:";
+  document.getElementById("dat2").innerHTML = b;
+  document.getElementById("dd3").innerHTML = "Amount of fertilizers required:";
+  document.getElementById("dat3").innerHTML = c;
+  }
+</script>
+
+
+        </div>
+        <!--hotline page end-->
+        <script type="text/javascript" src="cordova.js"></script>
+
+
+      <script type="text/javascript" src="lib/jquery.validate.js"></script>
+      <!--unite gallery-start-->
+      <script type='text/javascript' src='lib/unitegallery/js/unitegallery.min.js'></script>
+      <script type='text/javascript' src='lib/unitegallery/themes/tiles/ug-theme-tiles.js'></script>
+      <!--unite gallery-end-->
+      <!--mobiscroll-start-->
+      <script src="lib/mobiscroll/js/mobiscroll.core.js"></script>
+      <script src="lib/mobiscroll/js/mobiscroll.scroller.js" type="text/javascript"></script>
+      <script src="lib/mobiscroll/js/mobiscroll.datetime.js" type="text/javascript"></script>
+      <script src="lib/mobiscroll/js/mobiscroll.scroller.android.js" type="text/javascript"></script>
+      <script src="lib/mobiscroll/js/custom.js"></script>
+      <!--mobiscroll-end-->
+      <!--google map-->
+      <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+      <!--zebra start-->
+        <script type="text/javascript" src="lib/zebra/javascript/zebra_dialog.js"></script>
+        <!--zebra end-->
+        <script type="text/javascript" src="js/index.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
+      <script src="js/map_manipulation.js"></script>
+      <script type="text/javascript" src="js/logIn.js"></script>
+      </body>
+      </html>
+      <!--
+      Thanks. We will soon confirm your request.
+
+
+      Thanks. We will get back with insurance details soon.
+      -->

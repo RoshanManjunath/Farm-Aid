@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Farm-aid</title>
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="stylesheet" href="css/index.css"></script>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no; target-densityDpi=device-dpi" />
+<style type="text/css">
+.ui-page {
+    background: transparent url(backround.jpg);
+}
+</style>
+</head>
+<body>
+  <div data-role="page" id="index">
+            <div data-role="header" class="bgcolor-red">
+            <h1>FARM-Aid</h1>
+                 <a  class = "btn-top" data-iconpos="notext" data-theme="bgcolor-red"></a>
+            </div>
+        <div data-role="container" style=" margin-top: 85% !important">
+        	
+  			<form id="myForm" onsubmit="decision()" data-transition="pop" data-direction="reverse" />
+  			<fieldset>
+   				 <label for="lang">Select Language:</label>
+    				<select name="lang" id="lan">
+     				 <option value='1'>English</<option>
+      					<option value="2">Hindi</option>
+    					</select>
+  			</fieldset>
+
+			<input type="button" id="btn" value="Submit" onClick="javascript: window.open('page' + document.getElementById('lan').value+'.html');" />
+			</form>
+		</div>
+ </div>
+
+</body>
+</html>

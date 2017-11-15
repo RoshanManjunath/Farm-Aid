@@ -1,0 +1,304 @@
+.icon {
+	padding-top: 65px;
+	text-align: center;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e7dcdd;
+	border-right: 1px solid #e7dcdd;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: 50% 25%;
+	background-color: #FFFFFF;
+	font-weight: bold;
+
+}
+tr:nth-child(even){background-color: #f2f2f2}
+.t{
+	text-align: left;
+    padding: 8px;
+}
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.sugar {
+	background-image: url("../img/sugar.jpg");
+	color: #f41d25 !important;
+}
+
+.tomato {
+	background-image: url("../img/tomato.jpg");
+	color: #f41d25 !important;
+}
+
+.cotton {
+	background-image: url("../img/cotton.jpg");
+	color: #f41d25 !important;
+}
+
+.brinjal {
+	background-image: url("../img/brinjal.jpg");
+	color: #f41d25 !important;
+}
+
+.red-onions {
+	background-image: url("../img/red-onions.jpg");
+	color: #f41d25 !important;
+}
+
+.cucumber {
+	background-image: url("../img/Cucumber.jpg");
+	color: #f41d25 !important;
+}
+
+.carrot {
+	background-image: url("../img/carrot.jpg");
+	color: #f41d25 !important;
+}
+
+.beet {
+	background-image: url("../img/beet.jpg");
+	color: #f41d25 !important;
+}
+
+.raddish {
+	background-image: url("../img/raddish.jpg");
+	color: #f41d25 !important;
+}
+
+.corn {
+	background-image: url("../img/corn.jpg");
+	color: #f41d25 !important;
+}
+
+.cabbage {
+	background-image: url("../img/cabbage.jpg");
+	color: #f41d25 !important;
+}
+
+.cauliflower {
+	background-image: url("../img/cauliflower.jpg");
+	color: #f41d25 !important;
+}
+
+.laddies {
+	background-image: url("../img/laddies.jpg");
+	color: #f41d25 !important;
+}
+
+.spring {
+	background-image: url("../img/spring.jpg");
+	color: #f41d25 !important;
+}
+
+.bitter {
+	background-image: url("../img/bitter.jpg");
+	color: #f41d25 !important;
+}
+
+.beans {
+	background-image: url("../img/beans.jpg");
+	color: #f41d25 !important;
+}
+
+.cap {
+	background-image: url("../img/cap.jpg");
+	color: #f41d25 !important;
+}
+
+.drum {
+	background-image: url("../img/drum.jpg");
+	color: #f41d25 !important;
+}
+
+.my-car {
+	background-image: url("../img/about.png");
+	color: #f41d25 !important;
+}
+
+.newcar {
+	background-image: url("../img/irri.jpg");
+	color: #00c2f9 !important;
+}
+.service {
+	background-image: url("../img/plantation.png");
+	color: #aaca38 !important;
+}
+.contact {
+	background-image: url("../img/diseases.jpg");
+	color: #fccb2a !important;
+}
+.insurance {
+	background-image: url("../img/plant.jpg");
+	color: #d74b68 !important;
+}
+.offers {
+	background-image: url("../img/prot.jpg");
+	color: #2a59d7 !important;
+}
+.tracker {
+	background-image: url("../img/gallery.png");
+	color: #ff689a !important;
+}
+.tips {
+	background-image: url("../img/ferti.jpg");
+	color: #3e5eab !important;
+}
+.hotline {
+	background-image: url("../img/seeds.jpg");
+	color: #fc8631 !important;
+}
+
+.box {
+	margin-top: 20px;
+	border-top: 1px solid #e7dcdd;
+	border-bottom: 1px solid #e7dcdd;
+	background-color: white;
+	background-image: url("../img/tip.jpg");
+	background-repeat: no-repeat;
+	background-position: 3% 50%;
+	padding-top: 15px;
+	padding-left: 10%;
+}
+
+.box .text {
+	margin-left: 30px;
+	color: #6b6868;
+	font-family: lucida sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.tipimg {
+	float: right;
+	position: relative;
+	bottom: 15px;
+	right: 10px;
+}
+
+.bottom {
+	bottom: 0;
+	position: absolute !important;
+}
+
+/*mycar page*/
+.form {
+	width: 80%;
+	margin: 10px auto;
+}
+
+button.red {
+	width: 60%;
+	margin: auto;
+	background: linear-gradient(#d71a21, #f42020);
+	color: #F6F6F6 !important;
+	font-weight: 300;
+}
+
+/*new car*/
+.listItem a {
+	background-color: #F6F6F6 !important;
+}
+/*service*/
+button.green {
+	width: 60%;
+	margin: auto;
+	background: linear-gradient(#aaca38, #caf041);
+	color: #F6F6F6 !important;
+	font-weight: 300;
+}
+/*insurance*/
+button.magenta {
+	width: 60%;
+	margin: auto;
+	background: linear-gradient(#f4436d, #f11549);
+	color: #F6F6F6 !important;
+	font-weight: 300;
+}
+/*offers*/
+
+/*hotlines*/
+
+.hotnum {
+	padding-top: 65px;
+	text-align: center;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e7dcdd;
+	border-right: 1px solid #e7dcdd;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: 50% 25%;
+	background-color: #FFFFFF;
+	font-weight: bold;
+}
+
+.newcarsales {
+	background-image: url("../img/new-car-icon.jpg");
+	color: #fcc304 !important;
+}
+.usedcar {
+	background-image: url("../img/used-car-icon.jpg");
+	color: #719c1e !important;
+}
+.servicebooking {
+	background-image: url("../img/service-booking-icon.png");
+	color: #d51c31 !important;
+}
+.accessories {
+	background-image: url("../img/wheel.png");
+	color: #920303 !important;
+}
+.customercare {
+	background-image: url("../img/customer-care-icon.png");
+	color: #2c75bb !important;
+}
+.reinsurance {
+	background-image: url("../img/car-insurance-icon.jpg");
+	color: #ea8cda !important;
+}
+.carloan {
+	background-image: url("../img/car-loan-icon.jpg");
+	color: #44a852 !important;
+}
+.learndriving {
+	background-image: url("../img/learn-driving-icon.png");
+	color: #73f234 !important;
+}
+.extendedwarranty {
+	background-image: url("../img/warranty-icon.jpg");
+	color: #eaec26 !important;
+}
+.carimg img {
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+}
+.offerdetails{
+	font-style: italic;
+	font-variant: small-caps;
+	background-color: #EAEEEF;
+	padding: 10px;
+	text-align: center;
+	border: black dashed 1px;
+}
+.get-it{
+    color:#fff;
+        text-shadow: none!important;
+        border-radius: 4px !important;
+        width: 92% !important;
+
+        margin: 5px auto !important;
+
+}
